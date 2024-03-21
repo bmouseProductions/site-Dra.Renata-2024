@@ -19,7 +19,8 @@ export default function SectionOneAbout(){
 
                     <div className='flex'>
                     <a 
-                        href=''
+                        target='_blank'
+                        href='https://wa.me/5534992075771?text=Ol%C3%A1%21+Vim+pelo+Site+e+gostaria+de+marca+uma+consulta'
                         className='px-5 py-2 text-[#1d3273] bg-[#fbf8e7] font-black rounded-3xl '
                     >
                         Fale conosco

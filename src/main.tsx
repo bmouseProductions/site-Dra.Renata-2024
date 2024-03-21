@@ -10,6 +10,8 @@ import Footer from './components/Footer/Footer'
 import AboutPage from './pages/About/AboutPage'
 import EspecialidadePage from './pages/Especialidade/EspecialidadePage'
 import CelebrePage from './pages/Celebre/CelebrePage'
+import BackToTop from './components/BackToTop/BackToTop'
+import { Chatbot } from './components/ChatbotPT'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -22,7 +24,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path="/*" element={<ErrorPage />} />
       </Routes>
     </Router>
-
+    <Chatbot />
+    <BackToTop />
     <Footer/>
   </React.StrictMode>,
 )

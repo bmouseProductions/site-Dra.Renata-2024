@@ -15,7 +15,7 @@ export default function Footer() {
 
             <div className='py-14 flex flex-col md:flex-row justify-around'>
                 <p className=' text-center'>
-                    <strong>Copyright</strong> © 2024 - Dra. Renata
+                    <strong>Copyright</strong> © 2024 - Dra. Renata Caldeira
                 </p>
 
                 <a 

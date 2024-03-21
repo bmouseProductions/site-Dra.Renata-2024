@@ -83,3 +83,7 @@ h1.font-title{
 .shadow-botao:hover{
     box-shadow: none
 }
+
+svg.iconChat path{
+    color:#ffd892;
+}

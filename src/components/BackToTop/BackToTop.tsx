@@ -29,7 +29,7 @@ export default function BackToTop() {
   return (
     <div id='backTop' className={`fixed left-4 bottom-5 md:bottom-5 z-40 ${isSticky ? '' : 'hidding'}`}>
       <button
-        className='flex justify-center items-center rounded-full py-[6px] px-2 bg-[#00c8ff]  shadow-[0px_0px_5px_#5404da]'
+        className='flex justify-center items-center rounded-full py-2 px-2 bg-[#ffd78f]  shadow-[0px_0px_5px_#1d3273]'
         onClick={handleBackToTop}
       >
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
