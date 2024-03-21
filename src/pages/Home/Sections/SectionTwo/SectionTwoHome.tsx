@@ -1,10 +1,11 @@
 import lines from '../../../../assets/images/Home/lines.png'
 import idosa from '../../../../assets/images/Home/idosa.webp'
+import Button from '../../../../components/Button/Button'
 
 export default function SectionTwoHome(){
     return (
         <section className="bg-[#fbf8e7] ">
-            <div className='pt-10 max-w-[1600px] mx-auto flex flex-col md:flex-row justify-center'>
+            <div className='pt-14 max-w-[1600px] mx-auto flex flex-col md:flex-row justify-center'>
                 <div className='py-16 relative w-full flex justify-center '>
                     <img src={lines} alt="" className='absolute left-[-20px] md:left-[-10px] lg:left-0 top-0 w-32 xl:w-[200px] ' />
                     <img src={idosa} alt="" className='w-[70%] xl:w-auto ' />
@@ -33,6 +34,8 @@ export default function SectionTwoHome(){
                         <span className="font-semibold">
                             Agende sua consulta e descubra como podemos ajudá-lo(a).
                         </span>
+
+                        <Button />
                     </div>
                 </div>
             </div>

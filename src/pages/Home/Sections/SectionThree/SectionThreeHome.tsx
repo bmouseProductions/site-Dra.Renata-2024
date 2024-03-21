@@ -1,3 +1,4 @@
+import Button from "../../../../components/Button/Button"
 
 
 export default function SectionThreeHome(){
@@ -45,12 +46,7 @@ export default function SectionThreeHome(){
                         completo.
                     </p>
 
-                    <a 
-                        href=""
-                        className="px-5 py-2 max-w-[160px] text-[#1d3273] text-center font-black rounded-3xl bg-[#ffd78f]"
-                    >
-                        Fale conosco
-                    </a>
+                    <Button />
                 </div>
 
 

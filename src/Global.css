@@ -26,6 +26,10 @@
     font-size: 18px;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 h1.font-title{
     font-family: hatton;
     font-weight: bold;
@@ -50,7 +54,7 @@ h1.font-title{
         background-image: url(./assets//images/wavesBG.png);
         background-repeat: no-repeat;
         background-position: right;
-        background-size: 60%;
+        background-size: 60% 100%;
         background-color: #1d3273;
     }
 }
@@ -70,4 +74,12 @@ h1.font-title{
     background-image: url(./assets/images/waves-footer.webp);
     background-size: cover;
     background-repeat: repeat-y;
+}
+
+.shadow-botao{
+    box-shadow: 0 0 10px 1px #ffd892;
+}
+
+.shadow-botao:hover{
+    box-shadow: none
 }

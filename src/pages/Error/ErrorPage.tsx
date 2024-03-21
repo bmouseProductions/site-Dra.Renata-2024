@@ -4,15 +4,14 @@ import { Link } from 'react-router-dom'
 
 export default function ErrorPage(){
     return (
-        <section className='pt-[50px] pb-[200px] z-0'>
-            
+        <section className='pt-[50px] pb-[200px] z-0 bg-[#fbf8e7]'>
             <div className="max-w-[1276px] max-h-[500px] md:max-h-[300px] mt-5 md:mt-20 mx-auto px-5 xl:px-0 flex flex-col md:flex-row text-black relative">
                 <div className='w-full md:w-1/3  flex flex-col'>
                     <h1 className='text-7xl font-semibold text-[#dc2626] '>OOPS!</h1>
                     <h2 className='text-2xl mb-3'>Não encontramos a página que você tentou acessar.</h2>
                     <p className='text-lg mb-5'>Verifique o link que você digitou e tente novamente</p>
                     <Link to='/'>
-                        <button className='py-3 px-5  font-semibold text-black hover:bg-[#760bff] hover:text-white border rounded-3xl border-none bg-white'>
+                        <button className='py-3 px-5  font-semibold text-[#1d3273] bg-[#ffd683] hover:bg-[#fbf8e7] hover:text-[#e57870] border rounded-3xl border-none'>
                             Acessar a home
                         </button>
                     </Link>

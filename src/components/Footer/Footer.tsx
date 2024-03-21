@@ -6,7 +6,7 @@ export default function Footer() {
             <div className="bg-footer flex flex-col items-center py-[70px] md:py-[100px] rounded-[30px] ">
                 <img src={banner} className='w-[300px] md:w-[350px] lg:w-[400px] xl:w-[500px] ' alt="" />
                 <a 
-                    href=""
+                    href="/celebre"
                     className="mt-8 px-7 py-3 max-w-[200px] text-[#1d3273] text-center text-2xl font-black rounded-3xl bg-[#ffd78f]"
                 >
                     Saiba Mais
