@@ -30,6 +30,18 @@ html,body{
     overflow-x: hidden;
 }
 
+/*ESTILIZAÇÃO SCROLL-BAR */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    border-radius: 8px;
+    background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+background: #ffd78f;
+border-radius: 8px;
+}
+
 h1.font-title{
     font-family: hatton;
     font-weight: bold;

@@ -40,7 +40,7 @@ const chat: Pergunta[] = [
       {
         texto: "WhatsApp",
         linkExterno:
-          "https://wa.me/5534992075771?text=Ol%C3%A1%21+Vim+pelo+Site+e+gostaria+de+um+or%C3%A7amento%21",
+        'https://wa.me/5534992075771?text=Ol%C3%A1%21+Vim+pelo+Site+e+gostaria+de+marca+uma+consulta',
       },
       // Outras opções aqui, se necessário...
     ],
