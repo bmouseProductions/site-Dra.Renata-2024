@@ -6,7 +6,6 @@ import {
   SpeedDial,
   SpeedDialHandler,
 } from "@material-tailwind/react";
-import { PlusIcon } from "@heroicons/react/24/outline";
 import { Input } from "@material-tailwind/react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -40,7 +39,7 @@ const chat: Pergunta[] = [
       {
         texto: "WhatsApp",
         linkExterno:
-        'https://wa.me/5534992075771?text=Ol%C3%A1%21+Vim+pelo+Site+e+gostaria+de+marca+uma+consulta',
+        'https://wa.me/5534992075771?text=Ol%C3%A1%21+Vim+pelo+Site+e+gostaria+de+marcar+uma+consulta',
       },
       // Outras opções aqui, se necessário...
     ],
@@ -97,6 +96,7 @@ export const Chatbot = () => {
     // Se houver linkExterno, redirecione para ele
     if (linkExterno) {
       window.open(linkExterno, "_blank");
+      handleButtonClose()
     } else if (baseDePerguntas) {
       // Se houver baseDePerguntas, avance para a próxima pergunta
       const proximaPergunta = baseDePerguntas[0];
@@ -231,11 +231,14 @@ export const Chatbot = () => {
     return (
       /*   <div className="absolute bottom-3 right-3  w-[80%] h-[500px]  lg:w-[500px] lg:h-[700px] rounded-xl flex flex-col shadow-2xl border-2 "> */
       <div className="fixed bottom-3 right-3 ] bg-[#e3e2e2]  w-[80%] max-w-[500px] max-h-[700px] h-[500px] sm:w-[60%] md:w-[50%] lg:w-[45%] xl:w-[35%]  2xl:w-[30%] lg:h-[600px] 2xl:h-[650px] rounded-xl flex flex-col shadow-2xl border-2 ">
-        <header className="bg-[#000] h-[80px] p-5 flex justify-between rounded-t-xl sticky top-0  shadow-2xl ">
+        <header className="bg-[#1d3273] h-[80px] p-5 flex justify-between rounded-t-xl sticky top-0  shadow-2xl ">
           <img src={Logo} alt="BMOUSE SAÚDE" className="w-[120px]" />
           <button onClick={handleButtonClose}>
-            {" "}
-            <PlusIcon className="h-7 w-7 text-red-700  transition-transform rotate-45" />
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" 
+              className="h-7 w-7 transition-transform "
+            >
+              <path strokeLinecap="round" className="text-red-600" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
           </button>
         </header>
 
@@ -272,7 +275,7 @@ export const Chatbot = () => {
           <div ref={chatContainerRef} />
         </div>
 
-        <footer className="text-center text-sm lg:text-base bg-black text-white h-[80px] w-full p-5 rounded-b-xl">
+        <footer className="text-center text-sm lg:text-base bg-[#1d3273] !text-white h-[80px] w-full p-5 rounded-b-xl">
           {historico.length > 0 && (
             <Button
               size="lg"

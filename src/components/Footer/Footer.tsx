@@ -7,7 +7,7 @@ export default function Footer() {
                 <img src={banner} className='w-[300px] md:w-[350px] lg:w-[400px] xl:w-[500px] ' alt="" />
                 <a 
                     href="/celebre"
-                    className="mt-8 px-7 py-3 max-w-[200px] text-[#1d3273] text-center text-2xl font-black rounded-3xl bg-[#ffd78f]"
+                    className="mt-8 px-7 py-3 max-w-[200px] text-[#1d3273] text-center text-2xl font-black rounded-3xl bg-[#ffd78f] hover:bg-[#fbf8e7] hover:text-[#e57870]"
                 >
                     Saiba Mais
                 </a>

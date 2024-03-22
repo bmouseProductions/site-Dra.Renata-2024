@@ -34,12 +34,12 @@ export default function Header() {
           Especialidade
         </NavLink>
   
-        <a 
+        {/* <a 
           href="https://www.photopea.com/"
           className="text-lg md:text-xl cursor-pointer hover:underline"
         >
           Contato
-        </a>
+        </a> */}
 
         <NavLink to="/celebre" className="!w-fit px-5 py-2 text-lg md:text-xl text-[#1d3273] hover:text-[#e57870] font-black bg-[#ffd892] hover:bg-[#fbf8e7] transition-all rounded-3xl cursor-pointer hover:underline shadow-botao ">
           Celebre
@@ -63,12 +63,12 @@ export default function Header() {
           Especialidade
         </NavLink>
   
-        <a 
+        {/* <a 
           href="https://www.photopea.com/"
           className="text-lg md:text-xl cursor-pointer"
         >
           Contato
-        </a>
+        </a> */}
 
         <NavLink to="/celebre" className="!w-fit px-5 py-2 text-lg md:text-xl text-[#1d3273] hover:text-[#e57870] font-black bg-[#ffd892] hover:bg-[#fbf8e7] transition-all rounded-3xl cursor-pointer hover:underline shadow-botao ">
           Celebre
