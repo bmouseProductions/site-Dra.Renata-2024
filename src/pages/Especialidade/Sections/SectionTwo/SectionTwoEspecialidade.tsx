@@ -1,9 +1,9 @@
 import banner from '../../../../assets/images/banner-especialidade.webp'
 import Button from '../../../../components/Button/Button'
-
+//mt-[100px] md:mt-[300px]
 export default function SectionTwoEspecialidade(){
     return (
-        <section className="mt-[100px] md:mt-[300px] mb-16">
+        <section className="mt-5 mb-16">
             <div className="px-5 md:px-16 xl:px-28 flex flex-col items-center gap-5 ">
                 <div>
                     <h1 className="font-title text-[40px] md:text-[70px] text-center text-[#1d3273] uppercase">
